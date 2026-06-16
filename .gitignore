@@ -1,0 +1,55 @@
+# Interview Helper is distributed as a closed-source binary.
+# This public repo must never contain source code, build artifacts, secrets,
+# or personal interview data. The patterns below guard against accidents.
+
+# Source code (kept private)
+src/
+*.cs
+*.csproj
+*.xaml
+*.sln
+
+# Build artifacts and release payloads (released via GitHub Releases, never committed)
+bin/
+obj/
+build/
+dist/
+dist.zip
+publish/
+*.zip
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Secrets and keys
+.env
+*.env
+*.key
+*.pfx
+*secret*
+*apikey*
+
+# Personal interview data, logs, transcripts, story logs
+interviews/
+logs/
+*.log
+*transcript*
+*story-log*
+*talking-point*
+
+# Engineering docs (kept private)
+BUILD_SPEC.md
+*REQUIREMENTS*
+*SPECIFICATION*
+IMPLEMENTATION_PLAN.md
+*HANDOFF*
+SUPERPROMPT.md
+
+# OS / editor noise
+.vs/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
