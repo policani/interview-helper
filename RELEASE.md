@@ -1,15 +1,14 @@
 # Release Notes
 
-## Unreleased
+## v0.1.0
 
-First public build in preparation.
+First public build.
 
 - Three modes: Test, Prepare, and Interview.
 - Live dual-source transcription (microphone + Windows system-audio loopback).
 - Evidence-grounded coaching from a user-built Story Log; stays quiet when no
   prepared evidence matches.
-- Transparent, always-on-top overlay with screen-share hiding where Windows
-  allows it.
+- Transparent, always-on-top overlay that stays on your screen.
 - Per-session cost-safety stops and local-only logs.
 - OpenAI key stored in Windows Credential Manager.
 
