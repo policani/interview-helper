@@ -2,10 +2,12 @@
 
 ## v0.1.2
 
-Interface copy update.
+Interface and public messaging update.
 
 - Updated the Interview tab wording to "talking point panels" to match the
   product language used elsewhere.
+- Repositioned the public README around prepared notes and evidence-backed
+  talking points instead of live-assistance language.
 
 ## v0.1.1
 
@@ -26,8 +28,8 @@ First public build.
 
 - Three modes: Test, Prepare, and Interview.
 - Live dual-source transcription (microphone + Windows system-audio loopback).
-- Evidence-grounded coaching from a user-built Story Log; stays quiet when no
-  prepared evidence matches.
+- Evidence-grounded talking points from a user-built Story Log; stays quiet when
+  no prepared evidence matches.
 - Transparent, always-on-top overlay that stays on your screen.
 - Per-session cost-safety stops and local-only logs.
 - OpenAI key stored in Windows Credential Manager.

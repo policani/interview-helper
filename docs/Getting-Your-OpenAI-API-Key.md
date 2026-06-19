@@ -68,7 +68,7 @@ program you downloaded.
 
 To avoid surprises, set a monthly usage limit in the billing dashboard under
 **Limits**. As a reference, about 30 minutes of live transcription costs roughly
-$0.51, plus a few cents for coaching.
+$0.51, plus a few cents for prepared talking-point retrieval.
 
 ## A note on which AI providers are supported
 

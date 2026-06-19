@@ -1,14 +1,18 @@
 # Interview Helper
 
-A free Windows app that helps you prepare for interviews and gives you quiet,
-on-screen coaching while you are in one. It listens to the conversation,
-transcribes both sides, and shows you talking points on a transparent overlay.
-It never speaks, plays audio, or types into the meeting. Only you can see it.
+A free Windows app that turns your interview prep into a private set of notes,
+then surfaces the right talking points while the conversation is happening. You
+prepare the material in advance. During the meeting, Interview Helper listens for
+questions, matches them to your Story Log, and keeps relevant reminders handy in
+a transparent overlay only you can see.
+
+It does not speak, play audio, type into the meeting, or invent answers for you.
+If your prepared notes do not cover the moment, it stays quiet.
 
 > **Status:** Free to download and use. Closed-source. Bring your own OpenAI API
 > key. Windows 10/11 only.
 
-![Interview Helper running in Interview Mode: a transparent overlay with a live transcript rail on the left and a coaching rail on the right, leaving the video call visible in the center.](assets/Demo.jpg)
+![Interview Helper running in Interview Mode: a transparent overlay with a live transcript rail on the left and a prepared talking-points rail on the right, leaving the video call visible in the center.](assets/Demo.jpg)
 
 ## Download
 
@@ -40,35 +44,35 @@ background material — resume, brag sheet, notes, prior answers — as `.md`,
 selected session folder and builds a reusable Story Log of your real evidence:
 narratives, dated examples, themes, and the kinds of questions each one answers.
 
-**Interview Mode** opens a transparent, always-on-top overlay with two rails. The
-left rail shows a live transcript of the conversation. The right rail shows short
-talking points drawn from your Story Log when the interviewer asks something your
-prepared evidence actually covers. Transcript and talking-points notes autosave
-to the active session folder and can also be saved explicitly from the overlay.
-If nothing matches, it stays quiet rather than inventing generic advice.
+**Interview Mode** opens a transparent, always-on-top notes overlay with two
+rails. The left rail shows a live transcript of the conversation. The right rail
+shows short talking points from your Story Log when the interviewer asks
+something your prepared evidence actually covers. Transcript and talking-points
+notes autosave to the active session folder and can also be saved explicitly from
+the overlay. If nothing matches, it stays quiet rather than filling the space
+with generic advice.
 
 **Score Interview** reviews a live or saved transcript and gives a practical
 scorecard across clarity, evidence strength, role alignment, answer structure,
 and follow-up quality. When a transcript is saved or a call ends, the active
-session transcript is loaded for scoring. A follow-up thank you letter can be
+session transcript is loaded for review. A follow-up thank you letter can be
 generated from the transcript, notes, and score feedback and saved to the same
 session folder.
 
-The coach is built to stay out of the way. It ignores small talk and logistics,
-recognizes interviewer questions by shape rather than exact wording, does not
-answer the same question twice unless it is meaningfully rephrased, and gives
-first-person STAR answers for "tell me about a time" prompts while keeping direct
-factual questions short.
+The live notes overlay is built to stay out of the way. It ignores small talk and
+logistics, recognizes interviewer questions by shape rather than exact wording,
+does not repeat the same prepared note unless the question is meaningfully
+rephrased, and keeps direct factual prompts short.
 
 ## How Much It Costs To Run
 
 The app is free. You pay OpenAI directly for what you use, with your own key.
 
 For a 30-minute conversation, current OpenAI pricing puts live transcription at
-roughly **$0.51**. Coaching usually adds a few cents because it only runs on
-interview-relevant turns and is capped to short responses. Settings include
-cost-safety stops: the overlay shuts transcription down when you close it, after
-a maximum runtime, or after an idle period with no new speech.
+roughly **$0.51**. Talking-point retrieval usually adds a few cents because it
+only runs on interview-relevant turns and is capped to short responses. Settings
+include cost-safety stops: the overlay shuts transcription down when you close
+it, after a maximum runtime, or after an idle period with no new speech.
 
 ## Privacy
 
@@ -114,9 +118,10 @@ native Windows desktop application that solves a real-time problem end to end:
 
 - Live dual-source audio capture (microphone plus system-audio loopback) with a
   transparent, screen-share-aware overlay.
-- Evidence-grounded LLM use. Coaching is anchored to a user-built Story Log, and
-  the model is constrained to respond only when prepared evidence matches the
-  question — a deliberate guard against generic, made-up answers.
+- Evidence-grounded note retrieval. Talking points are anchored to a user-built
+  Story Log, and the model is constrained to surface material only when prepared
+  evidence matches the question - a deliberate guard against generic, made-up
+  answers.
 - Practical cost and privacy controls: per-session spend stops, local-only logs,
   and OS credential storage for the API key.
 

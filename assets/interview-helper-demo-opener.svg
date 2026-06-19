@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Interview Helper infographic: prepare evidence before the call, transcribe both sides during the call, match questions to prepared stories, and show private coaching only when evidence matches.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Interview Helper infographic: prepare evidence before the call, transcribe both sides during the call, match questions to prepared stories, and show private talking points only when evidence matches.">
   <defs>
     <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f8fbfc"/>
@@ -44,7 +44,7 @@
   <rect x="64" y="64" width="1792" height="952" rx="30" fill="#ffffff" stroke="#d7e4e9" stroke-width="3" filter="url(#shadow)"/>
 
   <text x="136" y="158" class="eyebrow">INTERVIEW HELPER</text>
-  <text x="136" y="276" class="title">Private coaching from</text>
+  <text x="136" y="276" class="title">Private talking points from</text>
   <text x="136" y="368" class="title">the evidence you prepared.</text>
   <text x="138" y="462" class="subtitle">The app listens, matches interview questions to your Story Log,</text>
   <text x="138" y="516" class="subtitle">and stays quiet when your notes do not support an answer.</text>
@@ -55,7 +55,7 @@
     <circle cx="52" cy="112" r="8" fill="#2f7f95"/>
     <text x="76" y="121" class="small">You prepare the evidence.</text>
     <circle cx="52" cy="154" r="8" fill="#2f7f95"/>
-    <text x="76" y="163" class="small">Only you see the coaching.</text>
+    <text x="76" y="163" class="small">Only you see the notes.</text>
     <circle cx="52" cy="196" r="8" fill="#c9922e"/>
     <text x="76" y="205" class="small">No invented answers.</text>
   </g>
