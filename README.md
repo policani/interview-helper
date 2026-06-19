@@ -28,21 +28,31 @@ will not work in this version.
 
 ## What It Does
 
-Interview Helper has three modes.
+Interview Helper has four modes.
 
 **Test Mode** checks that your microphone, system audio, OpenAI key, and the
 overlay all work before you rely on them in a real call.
 
-**Prepare Mode** lets you drop in your own background material — resume, brag
-sheet, notes, prior answers — as `.md`, `.txt`, `.docx`, or text-based `.pdf`.
-It reads those files and builds a reusable Story Log of your real evidence:
+**Prepare Mode** lets you choose an Interview Packet Folder, then select or
+create a session folder inside it for each interview. Drop in your own
+background material — resume, brag sheet, notes, prior answers — as `.md`,
+`.txt`, `.docx`, or text-based `.pdf`; the app copies those files into the
+selected session folder and builds a reusable Story Log of your real evidence:
 narratives, dated examples, themes, and the kinds of questions each one answers.
 
 **Interview Mode** opens a transparent, always-on-top overlay with two rails. The
 left rail shows a live transcript of the conversation. The right rail shows short
 talking points drawn from your Story Log when the interviewer asks something your
-prepared evidence actually covers. If nothing matches, it stays quiet rather than
-inventing generic advice.
+prepared evidence actually covers. Transcript and talking-points notes autosave
+to the active session folder and can also be saved explicitly from the overlay.
+If nothing matches, it stays quiet rather than inventing generic advice.
+
+**Score Interview** reviews a live or saved transcript and gives a practical
+scorecard across clarity, evidence strength, role alignment, answer structure,
+and follow-up quality. When a transcript is saved or a call ends, the active
+session transcript is loaded for scoring. A follow-up thank you letter can be
+generated from the transcript, notes, and score feedback and saved to the same
+session folder.
 
 The coach is built to stay out of the way. It ignores small talk and logistics,
 recognizes interviewer questions by shape rather than exact wording, does not
@@ -70,8 +80,9 @@ hosted database.
 - Settings are stored per Windows account under
   `%LocalAppData%\InterviewHelper\settings.json`.
 - Audio is sent to OpenAI only for transcription and is not saved by default.
-- Transcript and coaching logs are saved locally only when you choose to save
-  them. Diagnostic logs live under `%LocalAppData%\InterviewHelper\logs`.
+- Transcript and talking-points notes autosave locally to the active session
+  folder and can be saved explicitly from the overlay. Diagnostic logs live
+  under `%LocalAppData%\InterviewHelper\logs`.
 
 **Your data stays on your machine.** The downloaded program contains no key,
 settings, or interview content. Those are read from your own Windows account at

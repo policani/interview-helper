@@ -1,5 +1,18 @@
 # Release Notes
 
+## v0.1.1
+
+Overlay transcription reliability update.
+
+- Fixed overlay-mode transcription so live audio chunks are normalized before
+  upload and clear-silence chunks are skipped locally.
+- Reduced stale transcription backlog during live sessions so new speech is not
+  stuck behind older silent chunks.
+- Public docs now reflect the current four-mode product: Test, Prepare,
+  Interview, and Score Interview.
+- Session-folder autosave behavior is documented for transcripts,
+  talking-points notes, scoring, and follow-up thank you letters.
+
 ## v0.1.0
 
 First public build.
