@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.1.2
+
+Interface copy update.
+
+- Updated the Interview tab wording to "talking point panels" to match the
+  product language used elsewhere.
+
 ## v0.1.1
 
 Overlay transcription reliability update.
